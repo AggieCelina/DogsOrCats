@@ -43,6 +43,7 @@
             android:textSize="120sp"/>
 
         <TextView
+            android:id="@+id/cat_votes"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -69,8 +70,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@drawable/cats"
-            android:text="Vote for cats"/>
+            android:text="Vote for cats"
+            android:onClick="voteForCat"/>
+
+
 
     </LinearLayout>
 
